@@ -27,13 +27,6 @@ app.get("", (req, res) => {
   });
 });
 
-// app.get("/weather", (req, res) => {
-//   res.render("weather", {
-//     title: "Weather",
-//     name: "Imran Ismail",
-//   });
-// });
-
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About Me",
